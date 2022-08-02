@@ -1,7 +1,5 @@
 # 50 Projects - HTML/CSS and JavaScript
 
-I am trying to do 50 Projects created by Traversy Media to improve m JavaScript skills!
-
-Here is the original site that holds the challange : 
+I will try to do 50 Projects created by Traversy Media to improve my JavaScript skills!
 
 [https://50projects50days.com/]
