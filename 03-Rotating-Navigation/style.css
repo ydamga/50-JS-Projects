@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.content {
+  transition: transform 0.5s linear;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.bg {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.big-title {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.menu {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  transition: transform 0.4s ease-in;
+}
+
+.open {
+  margin: 70% 60%;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close {
+  margin: 70% 25%;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transform: rotate(-90deg);
+}
+
+.nav {
+  position: fixed;
+  left: 0px;
+  bottom: 40px;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+}
+
+.nav {
+  transition: transform 0.5s linear;
+  transform: translateX(-100%);
+}
+
+.nav.active {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+ul li + li {
+  margin-left: 15px;
+}
+
+ul li + li + li {
+  margin-left: 25px;
+}
+
+h1 {
+  margin: 0;
+}
